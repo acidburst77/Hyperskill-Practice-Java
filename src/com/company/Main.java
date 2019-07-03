@@ -161,6 +161,48 @@ public class Main {
                 System.out.println(planet);
             }
         }*/
+
+        /**
+         * Sorting numbers
+         * Correct to incorrect ratio
+         *       is 31%
+         * Hard
+         * ⏲
+         * 3 minutes
+         * Difficulty here is based on ratio of successful attempts
+         *       vs. all problem attempts by all learners. Time here is how fast other
+         *       learners usually solve it.
+         * Code Challenge — Write a program
+         * 213 learners successfully solved this problem.  These numbers are updated every 24 hours
+         * The latest completion was a day ago.
+         *
+         * Implement a method for sorting a given array of integers in the ascending order.
+         * You can use any algorithm for sorting it.
+         *
+         * Sample Input 1:
+         *
+         * 3 1 2
+         * Sample Output 1:
+         *
+         * 1 2 3
+         */
+
+        final Scanner scanner = new Scanner(System.in);
+        String[] values = scanner.nextLine().split("\\s+");
+        int[] numbers = Arrays.stream(values)
+                .mapToInt(Integer::parseInt)
+                .toArray();
+        sort(numbers);
+        Arrays.stream(numbers).forEach(e -> System.out.print(e + " "));
+
+    }
+
+    public static void sort(int[] numbers) {
+        int max = 0;
+        int[] arr = new int[numbers.length];
+        for(int i = 0; i < numbers.length; i++) {
+            for(int j = 0; j < )
+        }
     }
 }
 
