@@ -14,7 +14,10 @@ public class Main {
 
         System.out.println(sum);*/
 
-        Scanner sc = new Scanner(System.in);
+        // Enums
+        enum Season {
+            SPRING, SUMMER, AUTUMN, WINTER
+        }
 
     }
 }
