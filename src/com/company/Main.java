@@ -20,15 +20,8 @@ public class Main {
 }
 
 // Интересный вывод массива строк
-/*class Application {
+class Application {
     String name;
-    public void run(String[] str) {
-        System.out.println(this.name);
-
-        for(int i = 0; i < str.length; i++) {
-            System.out.println(str[i]);
-        }
-    }
 
     public void run(String[] str) {
         System.out.println(this.name);
@@ -37,4 +30,4 @@ public class Main {
             System.out.println(item);
         }
     }
-}*/
+}
